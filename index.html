@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;1,500&display=swap" rel="stylesheet">
     <title>Yahoo Eisenberg</title>
 
 </head>
@@ -43,6 +44,7 @@
                         <li><a href="#"><img src="./images/yahoo_eisenberg-icons_11-personals.png" alt="Go to Yahoo! Personals"></a></li>
                         <li><a href="#"><img src="./images/yahoo_eisenberg-icons_12-jobs.png" alt="Go to Jobs"></a></li>
                     </ul>
+
                 </div>
 
                 <div class="banner-content">
@@ -57,7 +59,7 @@
             <nav class="nav">
                 <ul>
                     <li><a href="#">All Stories</a></li>
-                    <li><a href="#">News</a></li>
+                    <li><a href="./index.html">News</a></li>
                     <li><a href="#">Local</a></li>
                     <li><a href="#">Entertainment</a></li>
                     <li><a href="#">Sports</a></li>
@@ -65,8 +67,25 @@
                 </ul>
 
                 <div class="dropdown-menu">
-                    <p>Miami, Fl | Temperature</p> 
-                    <img class="dropdown-button" src="./images/yahoo_eisenberg-icons_15-dropdown.png" alt="Click to view the dropdown menu"></div>
+                    <ul>
+                        <li>Miami, FL<span class="temperature"> 84°</span></li>
+                        <li><img class="dropdown-button" src="./images/yahoo_eisenberg-icons_15-dropdown.png" alt="Click to view the dropdown menu"></li>
+                            <ul class="dropping-menu">
+                                <li>
+                                    <h3>Scores</h3>
+                                    <p>MLB COL:5 - SF:0</p>
+                                    <p>NBA IND:97 - MIA:93</p>
+                                    <p>NHL OTT:2 - PITT:5</p>
+                                </li>
+                                <li>
+                                    <h3>Stocks</h3>
+                                    <p>AAPL: 443.55  - 5.30</p>
+                                    <p>YHOO: 52.34  - 1.45</p>
+                                </li>
+                            </ul>
+                    </ul>
+
+                </div>
             </nav>
         </div>
     </header>
@@ -76,20 +95,26 @@
 
             <div class="social-links">
                 <ul>
-                    <li><a href="#"><img>tumblr</a></li>
-                    <li><a href="#"><img>flickr</a></li>
+                    <li><a href="#Tumblr"><img src="./images/yahoo_eisenberg-icons_13-tumblr.png" alt="Tumblr Logo"></a></li>
+                    <li><a href="#Flickr"><img src="./images/yahoo_eisenberg-icons_14-flickr.png" alt="Flickr Logo"></a></li>
                 </ul>
             </div>
 
             <div class="news-featured">
-                <ul>
+                <ul class="news-headlines">
                     <li>Oklahoma turns to mammoth tak of cleanup after tornado <a href="#">- Los Angeles Times - 1 hour ago</a></li>
                     <li>Obama, in a Shift, to Limit Targets of Drone Strikes <a href="#">- New York Times - 1 hour ago</a></li>
                     <li>Major Nelson teases E3 for Xbox One news <a href="#">- PC World - 4 hour ago</a></li>
                     <li>US Treasuries, Asian Bonds Fall on Bets Fed to Taper Stimulus <a href="#">- Bloomerg - 5 hour ago</a></li>
                     <li>Merkel tops Forbes power women's list again <a href="#">- Newsday - 5 hour ago</a></li>
                 </ul>
+
             </div>
+
+            <ul class="arrows">
+                <li><img src="./images/yahoo_eisenberg-icons_18-arrow-up.png" alt="News Arrow Up"></li>
+                <li><img src="./images/yahoo_eisenberg-icons_17-arrow-down.png" alt="News Arrow Down"></li>
+            </ul>
 
         </div>
 

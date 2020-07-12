@@ -3,6 +3,20 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #484848;
+
+}
+
+h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: .8rem;
+    font-weight: 300;
 }
 
 .top-bar {
@@ -55,20 +69,39 @@
 }
 
 .banner-content {
-    border: 5px solid plum;
+    /* border: 5px solid pink; */
     width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: .8rem;
+    margin-left: 650px;
+    color: #484848;
     
 }
 
+.banner-content a {
+    color: #2b2b2d;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.banner-content p {
+    /* border: 2px solid plum; */
+    width: 20rem;
+    padding: 5px 0;
+}
 
 .nav-icons ul {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     height: 335px;
-    background-color: powderblue;
+    background-color: white;
     width: 25px;
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    justify-content: space-around;
+    padding: 10px 0;
 
 }
 
@@ -82,31 +115,53 @@
     width: 100%;
     height: 40px;
     background-color: #6f2886;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     border: 2px solid aqua;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #ad55c8;
+    padding: 10px;
 }
 
 .nav a:visited {
     color: white;
 }
 
+/* .nav a:active {
+    color: orange;
+    background-color: #ad55c8;
+    padding: 10px;
+} */
+
 .nav ul {
     list-style-type: none;
     display: flex;
+    padding-right: 30px;
 }
 
 .nav ul li {
     padding: 10px;
-    background-color: red;
-    margin-right: 2px;
+    /* background-color: blue; */
+    font-size: .8rem;
 }
 
 .nav .dropdown-menu {
     display: flex;
+    border: 2px solid fuchsia;
+}
+
+.dropping-menu {
+    visibility: hidden;
 }
 
 .dropdown-button {
@@ -114,10 +169,12 @@
 }
 
 .nav-tab {
-    border: 10px solid blue;
+    /* border: 10px solid blue; */
     height: 245px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: .8rem;
     
 }
 
@@ -125,26 +182,92 @@
     list-style-type: none;
 }
 
+.social-links li {
+    /* border: 1px solid red; */
+    padding-right: 20px;
+}
+
+.nav-tab .social-links {
+    padding-right: 10px;
+}
 
 .social-links {
-    border: 5px solid lime;
+    /* border: 5px solid lime; */
     width: 20%;
+}
+
+.social-links ul {
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
 }
 
 .news-featured {
     border: 2px solid magenta;
-    width: 50%;
+    width: 40%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.news-featured a {
+    color: #6f2886;
+}
+
+.news-featured li {
+    padding: 5px 0;
+    border: 1px solid red;
+
+}
+
+.arrows li img {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .announcement-box {
-    border: 5px solid yellowgreen;
+    /* border: 5px solid yellowgreen; */
     height: 420px;
     background-color: #fffece;
     display: flex;
     justify-content: flex-end;
+    background-image: url(./images/ferris_wheel.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .announcement-content {
-    border: 20px solid plum;
-    width: 60%;
+    /* border: 10px solid plum; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.announcement-content h1 {
+    font-size: 1.5rem;
+    color: #6f2886;
+}
+
+.announcement-content p {
+    color: #6f2886;
+    padding: 20px 0;
+    width: 30rem;
+}
+
+.link-button {
+    background-color: #9B4FB1;
+    font-size: .8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-self: start;
+    padding: 10px 20px;
+}
+
+.link-button:hover {
+    box-shadow: 0px 0px 5px #6f2886;
 }
