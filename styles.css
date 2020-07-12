@@ -1,0 +1,92 @@
+/* AMG */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    width: 100%;
+    height: 40px;
+    background-color: #6f2886;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+    /* border: 2px solid aqua; */
+}
+
+.top-bar .logo-search {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid yellow; */
+}
+
+.search-box {
+    margin-right: 10px;
+    /* border: 2px solid red; */
+}
+
+.search-button {
+    margin: auto 10px;
+    /* border: 2px solid red; */
+}
+
+.top-bar .logo {
+    height: 15px;
+    margin-right: 20px;
+    /* border: 2px solid pink; */
+}
+
+.profile-img img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.banner-feature {
+    background-image: url(./images/yahoo_eisenberg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 335px;
+}
+
+.nav-icons ul {
+    border: 2px solid orange;
+    display: flex;
+}
+
+.nav {
+    width: 100%;
+    height: 40px;
+    background-color: #6f2886;
+    margin-right: 10px;
+    border: 2px solid aqua;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav a:visited {
+    color: white;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav ul li {
+    padding: 10px;
+    background-color: red;
+    margin-right: 2px;
+}
+
+.nav .dropdown-menu {
+    display: flex;
+}
+
+.dropdown-button {
+    margin-left: 10px;
+}
