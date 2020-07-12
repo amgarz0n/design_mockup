@@ -49,11 +49,33 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 335px;
+    display: flex;
+    justify-content: flex-end;
+    
 }
+
+.banner-content {
+    border: 5px solid plum;
+    width: 40%;
+    
+}
+
 
 .nav-icons ul {
     border: 2px solid orange;
+    height: 335px;
+    background-color: powderblue;
+    width: 25px;
     display: flex;
+    flex-direction: column;
+    list-style-type: none;
+
+}
+
+.nav-icons ul li {
+    display: flex;
+    justify-content: center;
+    
 }
 
 .nav {
@@ -89,4 +111,40 @@
 
 .dropdown-button {
     margin-left: 10px;
+}
+
+.nav-tab {
+    border: 10px solid blue;
+    height: 245px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-tab ul {
+    list-style-type: none;
+}
+
+
+.social-links {
+    border: 5px solid lime;
+    width: 20%;
+}
+
+.news-featured {
+    border: 2px solid magenta;
+    width: 50%;
+}
+
+.announcement-box {
+    border: 5px solid yellowgreen;
+    height: 420px;
+    background-color: #fffece;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.announcement-content {
+    border: 20px solid plum;
+    width: 60%;
 }
