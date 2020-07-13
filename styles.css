@@ -177,7 +177,7 @@ a {
 }
 
 ul.dropping-menu {
-    /* display: none; */
+    display: none;
     width: 185px;
     height: 160px;
     background-color: #6f2886;
@@ -186,11 +186,6 @@ ul.dropping-menu {
     justify-content: center;
     align-items: center;
 } 
-
-/* li.dropdown-button, a {
-    width: 41px;
-    height: 41px;
-} */
 
 .dropdown-button a:hover {
     padding: 0;
