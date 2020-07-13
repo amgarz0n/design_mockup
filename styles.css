@@ -176,8 +176,11 @@ a {
     margin-left: 10px;
 }
 
-ul.dropping-menu {
+li.dropdown-menu .dropping-menu {
     display: none;
+}
+
+.dropping-menu {
     width: 185px;
     height: 160px;
     background-color: #6f2886;
