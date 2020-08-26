@@ -1,5 +1,5 @@
 # Weekend Project: Design Mockup
-The assignment for this project was to recreate a website from this [image] (http://dmm-static.herokuapp.com/yahoo_eisenberg.jpg) using HTML and CSS. 
+The assignment for this project was to recreate a website from this [image](http://dmm-static.herokuapp.com/yahoo_eisenberg.jpg) using HTML and CSS. 
 
 --- 
 ## Branding Guide
